@@ -1,0 +1,1 @@
+CreateSmoke("smoke-with-trigger", {})

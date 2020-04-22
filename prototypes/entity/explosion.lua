@@ -1,0 +1,1 @@
+CreateExplosion("explosion", {})

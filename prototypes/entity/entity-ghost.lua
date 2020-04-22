@@ -1,0 +1,1 @@
+CreateEntity("entity-ghost", {})

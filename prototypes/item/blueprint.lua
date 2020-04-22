@@ -1,0 +1,1 @@
+CreateSelectionTool("blueprint", {})

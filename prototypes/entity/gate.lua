@@ -1,0 +1,16 @@
+CreateEntityWithHealth("gate", {
+  activation_distance = 1,
+  close_sound = Baseless.Sound,
+  horizontal_animation = Baseless.Animation,
+  horizontal_rail_animation_left = Baseless.Animation,
+  horizontal_rail_animation_right = Baseless.Animation,
+  horizontal_rail_base = Baseless.Animation,
+  open_sound = Baseless.Sound,
+  opening_speed = 1,
+  timeout_to_close = 1,
+  vertical_animation = Baseless.Animation,
+  vertical_rail_animation_left = Baseless.Animation,
+  vertical_rail_animation_right = Baseless.Animation,
+  vertical_rail_base = Baseless.Animation,
+  wall_patch = Baseless.Animation,
+})

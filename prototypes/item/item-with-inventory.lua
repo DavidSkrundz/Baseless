@@ -1,0 +1,1 @@
+CreateItemWithInventory("item-with-inventory", {})

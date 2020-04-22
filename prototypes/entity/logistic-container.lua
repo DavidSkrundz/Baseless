@@ -1,0 +1,1 @@
+CreateLogisticContainer("logistic-container", {})

@@ -1,0 +1,1 @@
+CreateEntity("deconstructible-tile-proxy", {})

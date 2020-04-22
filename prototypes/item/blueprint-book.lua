@@ -1,0 +1,1 @@
+CreateItemWithInventory("blueprint-book", {})

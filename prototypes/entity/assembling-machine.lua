@@ -1,0 +1,1 @@
+CreateAssemblingMachine("assembling-machine", {})

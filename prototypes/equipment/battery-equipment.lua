@@ -1,0 +1,1 @@
+CreateEquipment("battery-equipment", {})

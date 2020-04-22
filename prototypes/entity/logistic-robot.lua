@@ -1,0 +1,1 @@
+CreateRobotWithLogisticInterface("logistic-robot", {})

@@ -1,0 +1,1 @@
+CreateCorpse("corpse", {})
