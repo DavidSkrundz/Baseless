@@ -1,6 +1,5 @@
 -- Stripped copy of the base mod
-data:extend
-{
+Baseless.RegisterIfUnique {
   {
     type = "map-settings",
     name = "map-settings",

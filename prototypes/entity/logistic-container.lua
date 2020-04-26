@@ -1,1 +1,0 @@
-CreateLogisticContainer("logistic-container", {})

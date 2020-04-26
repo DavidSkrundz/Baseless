@@ -1,1 +1,0 @@
-CreateItemWithInventory("blueprint-book", {})

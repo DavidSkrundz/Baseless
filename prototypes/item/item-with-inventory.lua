@@ -1,1 +1,0 @@
-CreateItemWithInventory("item-with-inventory", {})

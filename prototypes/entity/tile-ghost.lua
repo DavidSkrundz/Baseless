@@ -1,1 +1,0 @@
-CreateEntity("tile-ghost", {})

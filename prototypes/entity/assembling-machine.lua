@@ -1,1 +1,0 @@
-CreateAssemblingMachine("assembling-machine", {})

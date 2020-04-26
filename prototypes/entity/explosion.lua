@@ -1,1 +1,0 @@
-CreateExplosion("explosion", {})

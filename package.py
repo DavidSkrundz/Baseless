@@ -8,9 +8,13 @@ modFiles = [
 	"info.json",
 	"changelog.txt",
 	"thumbnail.png",
+
+	"data.lua",
+	"data-final-fixes.lua",
 ]
 modFolders = [
-	"helpers",
+	"Baseless",
+	"Helpers",
 	"prototypes",
 ]
 

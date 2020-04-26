@@ -1,0 +1,37 @@
+Baseless.Make.RocketSilo = function (name, prototype)
+  return Baseless.Make.AssemblingMachine("rocket-silo", name, Merge(
+    {
+      active_energy_usage = Baseless.Data.Energy,
+      arm_01_back_animation = Baseless.Graphics.Animation,
+      arm_02_right_animation = Baseless.Graphics.Animation,
+      arm_03_front_animation = Baseless.Graphics.Animation,
+      base_day_sprite = Baseless.Graphics.Sprite,
+      base_front_sprite = Baseless.Graphics.Sprite,
+      door_back_open_offset = Baseless.Data.Vector.Zero,
+      door_back_sprite = Baseless.Graphics.Sprite,
+      door_front_open_offset = Baseless.Data.Vector.Zero,
+      door_front_sprite = Baseless.Graphics.Sprite,
+      door_opening_speed = 0,
+      energy_usage = Baseless.Data.Energy,
+      hole_clipping_box = Baseless.Data.BoundingBox,
+      hole_light_sprite = Baseless.Graphics.Sprite,
+      hole_sprite = Baseless.Graphics.Sprite,
+      idle_energy_usage = Baseless.Data.Energy,
+      lamp_energy_usage = Baseless.Data.Energy,
+      light_blinking_speed = 0,
+      red_lights_back_sprites = Baseless.Graphics.Sprite,
+      red_lights_front_sprites = Baseless.Graphics.Sprite,
+      rocket_entity = Baseless.Data.RocketEntity,
+      rocket_glow_overlay_sprite = Baseless.Graphics.Sprite,
+      rocket_parts_required = 0,
+      rocket_shadow_overlay_sprite = Baseless.Graphics.Sprite,
+      satellite_animation = Baseless.Graphics.Animation,
+      satellite_shadow_animation = Baseless.Graphics.Animation,
+      shadow_sprite = Baseless.Graphics.Sprite,
+      silo_fade_out_end_distance = 0,
+      silo_fade_out_start_distance = 0,
+      times_to_blink = 0,
+    },
+    prototype
+  ), {"RocketEntity"})
+end

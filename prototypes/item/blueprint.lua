@@ -1,1 +1,0 @@
-CreateSelectionTool("blueprint", {})

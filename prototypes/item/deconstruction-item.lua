@@ -1,1 +1,0 @@
-CreateSelectionTool("deconstruction-item", {})

@@ -1,1 +1,0 @@
-CreateTool("tool", {})

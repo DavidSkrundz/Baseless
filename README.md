@@ -2,4 +2,10 @@
 
 Defines missing prototypes required to launch the game.
 
-**Incompatible with the base mod.**
+---
+
+## Folder structure
+
+- `Baseless` - shared constants
+- `Helpers` - generic functions
+- `prototypes/constructors` mirrors [https://wiki.factorio.com/Prototype_definitions](https://wiki.factorio.com/Prototype_definitions)

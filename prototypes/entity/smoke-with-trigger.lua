@@ -1,1 +1,0 @@
-CreateSmoke("smoke-with-trigger", {})
