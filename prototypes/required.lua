@@ -22,6 +22,14 @@ if Baseless.RegisterIfNew(
   )
 end
 
+if Baseless.RegisterIfNew(
+  Baseless.Make.ItemSubGroup("fluid", "dummy-item-group", {})
+) then
+  Baseless.RegisterIfNew(
+    Baseless.Make.ItemGroup()
+  )
+end
+
 -- Requires at least one tile that is walkable and not minable
 for _,tile in pairs(data.raw["tile"] or {}) do
   if tile.minable == nil then
@@ -41,7 +49,6 @@ Baseless.RegisterIfNew {
 
 -- Deprecated prototypes
 Baseless.RegisterIfUnique {
-  Baseless.Make.Entity("decorative", nil, {}),
   Baseless.Make.Entity("leaf-particle", "leaf-particle-for-migration", {}),
   Baseless.Make.Entity("particle", "particle-for-migration", {}),
   Baseless.Make.Smoke("smoke", "smoke-for-migration", {}),
