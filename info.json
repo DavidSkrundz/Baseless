@@ -1,11 +1,11 @@
 {
 	"name": "Baseless",
-	"version": "0.0.2",
+	"version": "1.0.0",
 	"title": "Baseless",
 	"description": "Defines missing prototypes required to launch the game.",
 	"author": "David Skrundz",
 	"contact": "david@skrundz.ca",
 	"homepage": "https://github.com/DavidSkrundz/Baseless",
-	"factorio_version": "0.18",
+	"factorio_version": "1.0",
 	"dependencies": []
 }

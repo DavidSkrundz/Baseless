@@ -14,6 +14,7 @@ Baseless.RegisterIfUnique {
   Baseless.Make.RailPlanner(),
   Baseless.Make.RepairTool(),
   Baseless.Make.SelectionTool(),
+  Baseless.Make.SpidertronRemote(),
   Baseless.Make.Tool(),
   Baseless.Make.UpgradeItem(),
 }

@@ -1,17 +1,17 @@
 Baseless.RegisterIfNew {
   Baseless.Make.Base("trigger-target-type", "ground-unit", {}),
-  Baseless.Make.DamageType("physical", {}),
   Baseless.Make.DamageType("impact", {}),
+  Baseless.Make.DamageType("physical", {}),
   Baseless.Make.EquipmentGrid("small-equipment-grid", {}),
   Baseless.Make.Item(nil, "copper-cable", {}),
-  Baseless.Make.Item(nil, "red-wire", {}),
   Baseless.Make.Item(nil, "green-wire", {}),
+  Baseless.Make.Item(nil, "red-wire", {}),
   Baseless.Make.RecipeCategory("crafting", {}),
   Baseless.Make.ResourceCategory("basic-solid", {}),
   Baseless.Make.TrivialSmoke("smoke-building", {}),
-  Baseless.Make.VirtualSignal("signal-everything", {}),
   Baseless.Make.VirtualSignal("signal-anything", {}),
   Baseless.Make.VirtualSignal("signal-each", {}),
+  Baseless.Make.VirtualSignal("signal-everything", {}),
 }
 
 if Baseless.RegisterIfNew(
