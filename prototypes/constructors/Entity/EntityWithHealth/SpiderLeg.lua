@@ -1,11 +1,11 @@
 Baseless.Make.SpiderLeg = function (name, prototype)
-  return Baseless.Make.Entity("spider-leg", name, Merge(
+  return Baseless.Make.EntityWithHealth("spider-leg", name, Merge(
     {
-      part_length = 1,
+      graphics_set = {},
       initial_movement_speed = 0,
       movement_acceleration = 0,
       movement_based_position_selection_distance = 0,
-      graphics_set = {},
+      part_length = 1,
     },
     prototype
   ))
