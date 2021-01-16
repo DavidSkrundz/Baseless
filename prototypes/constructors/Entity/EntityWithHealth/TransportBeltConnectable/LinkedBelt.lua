@@ -1,13 +1,11 @@
-Baseless.Make.Loader1x2 = function (name, prototype)
-  return Baseless.Make.TransportBeltConnectable("loader", name, Merge(
+Baseless.Make.LinkedBelt = function (name, prototype)
+  return Baseless.Make.TransportBeltConnectable("linked-belt", name, Merge(
     {
-      filter_count = 0,
       structure =
       {
         direction_in = Baseless.Graphics.Sprite4Way,
         direction_out = Baseless.Graphics.Sprite4Way,
       },
-      tile_height = 2,
     },
     prototype
   ))

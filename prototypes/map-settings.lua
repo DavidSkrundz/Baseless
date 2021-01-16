@@ -108,12 +108,15 @@ Baseless.RegisterIfUnique {
       start_to_goal_cost_multiplier_to_terminate_path_find = 2000.0,
       overload_levels = {0, 100, 500},
       overload_multipliers = {2, 3, 4},
+      negative_path_cache_delay_interval = 20,
     },
     max_failed_behavior_count = 3,
     difficulty_settings =
     {
        recipe_difficulty = defines.difficulty_settings.recipe_difficulty.normal,
        technology_difficulty = defines.difficulty_settings.technology_difficulty.normal,
+       technology_price_multiplier = 1,
+       research_queue_setting = "after-victory",
     },
   },
 }

@@ -31,6 +31,8 @@ Baseless.Make.TransportBeltConnectable = function (type, name, prototype, condit
       speed = 0,
       belt_animation_set = AnimationSet,
       collision_box = Baseless.Data.BoundingBox,
+      tile_width = 1,
+      tile_height = 1,
     },
     prototype
   ), conditions)

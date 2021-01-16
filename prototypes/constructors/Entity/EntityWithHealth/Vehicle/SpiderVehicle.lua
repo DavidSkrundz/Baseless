@@ -15,7 +15,7 @@ Baseless.Make.SpiderVehicle = function (name, prototype)
           leg = Baseless.Data.SpiderLeg,
           mount_position = Baseless.Data.Vector.Zero,
           ground_position = Baseless.Data.Vector.Zero,
-          blocking_legs = Baseless.Data.Vector.Zero,
+          blocking_legs = {},
         },
       },
     },

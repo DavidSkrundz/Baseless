@@ -50,6 +50,8 @@ Baseless.RegisterIfUnique {
   Baseless.Make.Lab(),
   Baseless.Make.Lamp(),
   Baseless.Make.LandMine(),
+  Baseless.Make.LinkedBelt(),
+  Baseless.Make.LinkedContainer(),
   Baseless.Make.Loader1x1(),
   Baseless.Make.Loader1x2(),
   Baseless.Make.Locomotive(),
