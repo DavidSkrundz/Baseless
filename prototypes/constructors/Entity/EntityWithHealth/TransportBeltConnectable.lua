@@ -28,7 +28,7 @@ local AnimationSet =
 Baseless.Make.TransportBeltConnectable = function (type, name, prototype, conditions)
   return Baseless.Make.EntityWithHealth(type, name, Merge(
     {
-      speed = 0,
+      speed = 1,
       belt_animation_set = AnimationSet,
       collision_box = Baseless.Data.BoundingBox,
       tile_width = 1,
